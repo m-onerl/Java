@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Lista nazwaKursu="KPW" xmlns:tns="http://www.example.org/dane03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/dane03 dane03.xsd ">
+  <tns:Student indeks="12345">
+    <tns:Imie>Jan</tns:Imie>
+    <tns:Nazwisko>Kowalski</tns:Nazwisko>
+  </tns:Student>
+  <tns:Student indeks="12346">
+    <tns:Imie>Adam</tns:Imie>
+    <tns:Nazwisko>Nowak</tns:Nazwisko>
+  </tns:Student>
+</tns:Lista>

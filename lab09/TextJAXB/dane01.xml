@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Imieniny data="2016-03-23" xmlns:tns="http://www.example.org/dane01">
+  <tns:Imie>Sylwester</tns:Imie>
+  <tns:Imie>Sylwestra</tns:Imie>
+</tns:Imieniny>
+

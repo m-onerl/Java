@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OSOBA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="src/pakiet2/NewXMLSchema1.xsd">
+  <imie>imie</imie>
+  <wiek>0</wiek>
+</OSOBA>

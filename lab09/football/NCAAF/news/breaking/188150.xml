@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><sport:content xmlns:sport="http://xml.sportsdirectinc.com/sport/v2">
+<article-content>
+<meta>
+<property name="path">/football/ncaaf</property>
+</meta>
+<article>
+<id>/article/sdi:188150</id>
+<language>en</language>
+<title>BCS releases new qualification formula</title>
+<source>
+<name>SportsDirect Inc.</name>
+</source>
+<author>
+<name>SportsDirect</name>
+</author>
+<date>2010-04-23T12:07:00.000-03:00</date>
+<synopsis/>
+<body><![CDATA[<P>The Bowl Championship Series on Thursday said its new formula provides three ways for conferences without automatic bids to qualify for the lucrative bowl games, the <EM>Associated Press</EM> reported. </P><P>According to the report, the BCS will measure conference strength by (a) the ranking of the highest-ranked team from a conference in the final BCS standings; (b) the final computer rankings of all teams in the conference; and (c) how many of the conferences' teams are in the top 25 in the final BCS standings.</P><P>The measurments are amassed over a four-year period, with conferences compared to each other. A conference such as the Mountain West could qualify for automatic bid if its ranking in all three categories surpasses one of the conferences already receiving an automatic berth, the report said. <BR></P>]]></body>
+<references>
+<league-reference>
+<league>
+<id>/sport/football/league:2</id>
+<name>NCAA Football</name>
+<name type="nick">NCAAF</name>
+</league>
+</league-reference>
+</references>
+</article>
+</article-content>
+</sport:content>

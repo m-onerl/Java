@@ -1,0 +1,42 @@
+Lab03
+
+Napisz aplikację, która pozwoli skonsumować dane bibliograficzne pozyskiwane z serwisu oferujšcego publiczne restowe API. Serwisem takim może być: https://openlibrary.org/developers/api lub jakikolwiek inny serwis, z którym można będzie się skomunikować (spełniajšc wymagania okrelone w treci zadania).
+Nawiasem mówišc ciekawš listę serwisów udostępniajšcych API można znaleć pod adresem:
+https://rapidapi.com/collection/list-of-free-apis (wymagajš klucza API), czy też https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/ (te klucza API nie wymagajš). 
+
+Bazujšc na wskazanym api należy zbudować aplikację z graficznym interfejsem użytkownika, pozwalajšcš na przeprowadzanie testów dla bibliofilów, z pytaniami dotyczšcymi ksišżek (np. tytuły, tematyka, wydania, autorzy), autorów (np. dorobek wydawniczy, współautorstwo) itp. Renderowanie zapytań i odpowiedzi powinno być tak zaimplementowane, by dało się zmianić ustawienia językowe (lokalizacji) w oparciu o tzw. bundle (definiowane w plikach i klasach - obie te opcje należy przetestować). Wspierane majš być języki: polski i angielski. 
+
+Proszę zapoznać się z api i zaproponować kilka schematów zapytań i pól odpowiedzi. Niech zapytania będš parametryzowane wartociami pochodzšcymi z list wyboru wypełnionych treciš pozyskanš z serwisu, a odpowiedzi niech będš uzupełniane wolnym tekstem lub wartociami z list wyboru (jeli "charakter" pytania jest, odpowiednio, otwarty lub zamknięty). 
+Odpowiedzi podanawane przez użytkownika powinny być weryfikowane przez aplikację (aplikacja, po wysłaniu zapytania przez api powinna sprawdzić, czy wynik tego zapytania jest zgodny z odpowiedziš udzielonš przez użytkownika).
+
+Przykłady szablonów zapytania i odpowiedzi: 
+Przykład 1:
+ Pole zapytania: "Kto jest autorem ksišżki ... ?" (w miejsce kropek aplikacja powinna wstawić jaki tytuł pobrany z serwisu)
+ Pole odpowiedzi: "..."  (miejsce na wpisanie autora).
+ Pole weryfikacji (dla poprawnej odpowiedzi): "Tak, masz rację. Autorem ksišżki .... jest ..." (to ma wypełnić sama aplikacja, przy czym można się zastanowić nad tym, jak ma przebiegać weryfikacja, gdy np. autorów jest więcej niż jeden).
+
+Przykład 2:
+Na przykład dla szablonu zapytania zapytania: 
+ Pole zapytania: "Ilu współatorów ma ksišżka ... ?" (w miejsce kropek aplikacja powinna wstawić jaki tytuł pobrany z serwisu)
+ Pole odpowiedzi: "..."  (miejsce na wpisanie liczby).
+ Pole weryfikacji (dla poprawnej odpowiedzi): "Tak, masz rację. Ksišżka ... została napisana przez ... autorów" (to ma wypełnić sama aplikacja, przy czym trzeba obsłużyć odmianę przez liczby). 
+ 
+Przykład 3:
+ Pole zapytania: "Które z wymienionych tytułów: a) ...., b) ...., c) ....., d) ..... to ksišżki dotyczšce tematyki: ....?" (w miejsce kropek przy wyliczeniu aplikacja powinna wstawić losowe tytuły ksišżek pobrane z serwisu, za tematyka powinna być atrybutem pasujšcym przynajmniej do jednego tytułu - co można sprawdzić w serwisie).
+ Pole odpowiedzi: "..."  (miejsce na wpisanie literki/literek odpowiadajšcych wybranym tytułom).
+ Pole weryfikacji (dla poprawnej odpowiedzi): "Tak, masz rację. Ksišżka (bšd ksišżki) ... dotyczy (dotyczš) tematyki ....." (to ma wypełnić sama aplikacja, przy czym trzeba obsłużyć odmianę przez liczby). 
+
+Proszę pamiętać o obsłudze przynajmniej dwóch języków na interfejsie. Do tego proszę zastosować wariantowe pobieranie tekstów z bundli. Do tego przyda się klasa ChoiceFormat. 
+
+Przypominam, że podczas realizacji zadania można wykorzystać inne api niż sugerowane, jeli tylko pozwoli ono zrealizować przedstawionš wyżej koncepcję (parametryzowane szablony zapytań, do wypełnienia pola odpowiedzi, linijka weryfikacji z odmianš przez liczby/osoby - wszystko przynajmniej z obsługš dwóch języków: polski i angielski).
+
+
+Odmiana przez osoby, autor autorka, dwie ksiazki, pieć ksiązek
+autor nie napisal wiecej niz 100 ksiazek
+aplikacja ma korzystać z API
+
+pytania na interfejsie tesc pytan uzupelniana danymi z api(mozna zmienic szablony)
+aplikacja testu egzaminu
+!!bundle!!
+przynajmiej 3 szablony pytan
+3 wygenerowane pytania losowe dane

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><sport:content xmlns:sport="http://xml.sportsdirectinc.com/sport/v2">
+<article-content>
+<meta>
+<property name="path">/football/ncaaf</property>
+</meta>
+<article>
+<id>/article/sdi:188326</id>
+<language>en</language>
+<title>NCAA approves 35 bowls for next four years</title>
+<source>
+<name>SportsDirect Inc.</name>
+</source>
+<author>
+<name>SportsDirect</name>
+</author>
+<date>2010-04-24T20:34:00.000-03:00</date>
+<synopsis/>
+<body><![CDATA[<P>The NCAA has approved 35 bowl games over the next four year, allowing 70 Football Bowl Subdivision schools to take part in the postseason, according to the <EM>Associated Press</EM>.</P><P>The NCAA said the bowls were licensed on a four-year cycle for the first time, putting them on the same cycle as bowl-conference agreements, according to the report.</P><P>The 2010 season schedule will feature two new bowls - the Pinstripe Bowl at Yankee Stadium on Dec. 30 and the Dallas Football Classic at the Cotton Bowl on Jan. 1, 2011. </P><P> </P>]]></body>
+<references>
+<league-reference>
+<league>
+<id>/sport/football/league:2</id>
+<name>NCAA Football</name>
+<name type="nick">NCAAF</name>
+</league>
+</league-reference>
+</references>
+</article>
+</article-content>
+</sport:content>

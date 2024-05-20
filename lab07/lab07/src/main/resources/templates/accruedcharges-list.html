@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Accrued Charges List</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+<div class="container">
+    <a href="/" class="button">⇇</a>
+    <h2>Accrued Charges List</h2>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Payment Due Date</th>
+            <th>Amount Due</th>
+            <th>Installation Router Number</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="accruedCharge : ${accruedCharges}">
+            <td th:text="${accruedCharge.paymentDueDate}"></td>
+            <td th:text="${accruedCharge.amountDue}"></td>
+            <td th:text="${accruedCharge.installationRouterNumber}"></td>
+        </tr>
+        </tbody>
+    </table>
+    <a href="/charges/add" class="add-button">Add Charge</a>
+</div>
+</body>
+</html>

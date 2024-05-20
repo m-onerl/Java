@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Installation</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+<div class="container">
+<h2>Add Installation</h2>
+<form method="post" th:action="@{/installations/add}">
+    <label>Router Number: <input type="text" name="routerNumber" required/></label><br/>
+    <label>Address: <input type="text" name="address" required/></label><br/>
+    <label>Service Type: <input type="text" name="serviceType" required/></label><br/>
+    <label>Customer ID: <input type="text" name="customerId" required/></label><br/>
+    <button type="submit">Submit</button>
+</form>
+<a href="/installations/"  class="back-link">Back to Installation List</a>
+</div>
+</body>
+</html>

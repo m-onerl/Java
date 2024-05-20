@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><sport:content xmlns:sport="http://xml.sportsdirectinc.com/sport/v2">
+<article-content>
+<meta>
+<property name="path">/football/nfl</property>
+</meta>
+<article>
+<id>/article/sdi:188498</id>
+<language>en</language>
+<title>Patriots release LB Thomas</title>
+<source>
+<name>SportsDirect Inc.</name>
+</source>
+<author>
+<name>SportsDirect</name>
+</author>
+<date>2010-04-26T12:05:00.000-03:00</date>
+<synopsis/>
+<body><![CDATA[<P>The New England Patriots on Monday released unhappy linebacker Adalius Thomas, the <EM>Boston Globe</EM> reported. </P><P>Thomas spent three seasons with the Patriots and occasionally clashed with cach Bill Belichick over how he was used. </P><P>After collecting 11 sacks in his final season with Baltimore in 2006, he had 14 in three years with the Patriots, including a career-low three last season. </P><P> </P>]]></body>
+<references>
+<league-reference>
+<league>
+<id>/sport/football/league:1</id>
+<name>National Football League</name>
+<name type="nick">NFL</name>
+</league>
+</league-reference>
+</references>
+</article>
+</article-content>
+</sport:content>

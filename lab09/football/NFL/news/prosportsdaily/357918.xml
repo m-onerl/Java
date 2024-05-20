@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><sport:content xmlns:sport="http://xml.sportsdirectinc.com/sport/v2">
+<article-content>
+<meta>
+<property name="path">/football/NFL</property>
+</meta>
+<article>
+<id>/article/psd:357918</id>
+<title>Henderson available, will look around</title>
+<url>http://blogs.tennessean.com/titans/2010/04/26/henderson-available-will-look-around/</url>
+<source>
+<name>Tennessean</name>
+</source>
+<date>2010-04-26T13:27:00.000-03:00</date>
+<body><![CDATA[It's the end of the road for John Henderson in Jacksonville. According to a report, the Jaguars will release the defensive tackle on Monday.
+
+His agent would love to see him land back on his feet in his hometown of Nashville, with the Titans. Henderson played at Pearl-Cohn High and the University of Tennessee.
+
+"One of his top priorities would be to come back home, that would always be a perfect fit,'' agent Tim McGee said. "Put it this way: Either way we'll talk, there's no question about that. We'll see what kind of interest the Titans have and I am pretty sure they'll feel us out to and we'll go from there.'']]></body>
+<references>
+<league-reference>
+<league>
+<id>/sport/football/league:1</id>
+<name>National Football League</name>
+<name type="nick">NFL</name>
+</league>
+<tag>rumor</tag>
+</league-reference>
+<team-reference>
+<team>
+<id>/sport/football/team:10</id>
+<name type="full">Tennessee Titans</name>
+</team>
+<tag>rumor</tag>
+</team-reference>
+</references>
+</article>
+</article-content>
+</sport:content>

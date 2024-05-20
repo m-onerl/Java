@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><sport:content xmlns:sport="http://xml.sportsdirectinc.com/sport/v2">
+<article-content>
+<meta>
+<property name="path">/football/NFL</property>
+</meta>
+<article>
+<id>/article/psd:357923</id>
+<title>Russell not the only Raider on notice</title>
+<url>http://www.ibabuzz.com/oaklandraiders/2010/04/26/russell-not-the-only-raider-on-notice/</url>
+<source>
+<name>Oakland Tribune</name>
+</source>
+<date>2010-04-26T13:57:00.000-03:00</date>
+<body><![CDATA[As the Raiders gather for their mandatory minicamp this weekend, JaMarcus Russell isn't the only player whose job security will be tenuous.
+
+Whether Russell will actually be there, as coach Tom Cable said he would, is open to question. The last thing the Raiders need is an injury which would delay the process of sending him on his way in the wake of the acquisition of Washington quarterback Jason Campbell.
+
+Campbell is already in the area, and was spotted at a Jack London Square restaurant with offensive coordinator Hue Jackson by a reader with a who sent a photo. Russell, meanwhile has been kept out of public view.]]></body>
+<references>
+<league-reference>
+<league>
+<id>/sport/football/league:1</id>
+<name>National Football League</name>
+<name type="nick">NFL</name>
+</league>
+</league-reference>
+<team-reference>
+<team>
+<id>/sport/football/team:26</id>
+<name type="full">Oakland Raiders</name>
+</team>
+<tag>news</tag>
+</team-reference>
+</references>
+</article>
+</article-content>
+</sport:content>

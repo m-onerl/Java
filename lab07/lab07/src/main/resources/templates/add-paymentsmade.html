@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Payment</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+<div class="container">
+<h2>Add Payment</h2>
+<form action="/payments/add" method="post">
+    <label for="amount">Amount:</label>
+    <input type="text" id="amount" name="amount" required><br>
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required><br>
+    <label for="customerId">Customer ID:</label>
+    <input type="text" id="customerId" name="customerId"><br>
+    <label for="installationId">Installation ID:</label>
+    <input type="text" id="installationId" name="installationId"><br>
+    <button type="submit">Submit</button>
+
+</form>
+    <a href="/installations/"  class="back-link">Back to Payment List</a>
+</div>
+</body>
+</html>

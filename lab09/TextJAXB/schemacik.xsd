@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/schemacik" xmlns:tns="http://www.example.org/schemacik" elementFormDefault="qualified">
+
+    <complexType name="StudentType">
+    	<sequence>
+    		<element name="Imie" type="string"></element>
+    		<element name="Nazwisko" type="string"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="StudentsType">
+    	<sequence>
+    		<element name="Student" type="tns:StudentType" maxOccurs="unbounded" minOccurs="1"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="Students" type="tns:StudentsType"></element>
+</schema>

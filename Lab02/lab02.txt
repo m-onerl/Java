@@ -1,0 +1,6 @@
+poprawic:
+dodać jlink i konfiguracje
+
+nie robić na sztywno zrobić mozliwosc modyfikacji programu
+
+przgotowac read.me z tymi testami

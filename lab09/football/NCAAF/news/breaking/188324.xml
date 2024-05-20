@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><sport:content xmlns:sport="http://xml.sportsdirectinc.com/sport/v2">
+<article-content>
+<meta>
+<property name="path">/football/ncaaf</property>
+</meta>
+<article>
+<id>/article/sdi:188324</id>
+<language>en</language>
+<title>Paterno calls for Big Fourteen</title>
+<source>
+<name>SportsDirect Inc.</name>
+</source>
+<author>
+<name>SportsDirect</name>
+</author>
+<date>2010-04-24T20:25:00.000-03:00</date>
+<synopsis/>
+<body><![CDATA[<P>Longtime Penn State football coach Joe Paterno said Saturday he hopes the Big Ten Conference expands to 14 members, according to the <EM>Associated Press</EM>.</P><P>Paterno, whose Nittany Lions joined the league years ago to give the Big Ten 11 members, said he would like to see the league add three schools - two from the east and one from the west, the report said.</P><P>The Big Ten is currently studying expansion and expects to make a move within 12 to 18 months. If the league adds at least one member it can hold a conference championship game, which Paterno has supported.</P><P> </P><P> </P>]]></body>
+<references>
+<league-reference>
+<league>
+<id>/sport/football/league:2</id>
+<name>NCAA Football</name>
+<name type="nick">NCAAF</name>
+</league>
+</league-reference>
+</references>
+</article>
+</article-content>
+</sport:content>

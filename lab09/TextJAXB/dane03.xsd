@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/dane03" xmlns:tns="http://www.example.org/dane03" elementFormDefault="qualified">
+
+    <complexType name="StudentType">
+    	<sequence>
+    		<element name="Imie" type="string" maxOccurs="unbounded"
+    			minOccurs="1">
+    		</element>
+    		<element name="Nazwisko" type="string" maxOccurs="1" minOccurs="1"></element>
+    	</sequence>
+    	<attribute name="indeks" type="string"></attribute>
+    </complexType>
+
+    <complexType name="ListaStudentow">
+    	<sequence>
+    		<element name="Student" type="tns:StudentType"
+    			maxOccurs="unbounded" minOccurs="0">
+    		</element>
+    	</sequence>
+    	<attribute name="nazwaKursu" type="string"></attribute>
+    </complexType>
+
+
+    <element name="Lista" type="tns:ListaStudentow"></element>
+</schema>

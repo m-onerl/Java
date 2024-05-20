@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><sport:content xmlns:sport="http://xml.sportsdirectinc.com/sport/v2">
+<article-content>
+<meta>
+<property name="path">/football/NFL</property>
+</meta>
+<article>
+<id>/article/psd:357457</id>
+<title>Giants draft William &amp; Mary's Adrian Tracy in sixth round</title>
+<url>http://www.nj.com/giants/index.ssf/2010/04/giants_draft_william_marys_adr.html</url>
+<source>
+<name>Newark Star-Ledger</name>
+</source>
+<date>2010-04-25T12:29:00.000-03:00</date>
+<body><![CDATA[Now do you know why the Giants are so protective of their pre-draft visits?
+
+The team selected William & Mary's Adrian Tracy with their sixth-round pick, No. 184 overall. Tracy, a 6-3, 248-pound defensive end in college, was the first name of the Giants' pre-draft visits to be leaked publicly.
+
+He, Jason-Pierre Paul and Phillip Dillard were on the list of players who visited the team. (That was an incomplete list that was never fully flushed out, so for all we know Mitch Petrus might have visited as well.)
+
+The Giants cracked down on the agents of the players who were visiting to keep the names as quiet as possible.]]></body>
+<references>
+<league-reference>
+<league>
+<id>/sport/football/league:1</id>
+<name>National Football League</name>
+<name type="nick">NFL</name>
+</league>
+</league-reference>
+<team-reference>
+<team>
+<id>/sport/football/team:8</id>
+<name type="full">New York Giants</name>
+</team>
+<tag>news</tag>
+</team-reference>
+</references>
+</article>
+</article-content>
+</sport:content>

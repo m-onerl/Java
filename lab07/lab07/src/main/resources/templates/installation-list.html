@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Installation List</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+<div class="container">
+    <a href="/" class="button">⇇</a>
+    <h2>Installation List</h2>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Router Number</th>
+            <th>Address</th>
+            <th>Service Type</th>
+            <th>Customer</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="installation : ${installations}">
+            <td th:text="${installation.routerNumber}"></td>
+            <td th:text="${installation.address}"></td>
+            <td th:text="${installation.serviceType}"></td>
+            <td th:text="${installation.customer != null ? installation.customer.firstName + ' ' + installation.customer.lastName : 'N/A'}"></td>
+            <td>
+                <a th:href="@{'/installations/delete/' + ${installation.routerNumber}}" th:method="delete">Delete</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <a href="/installations/add" class="add-button">Add Installation</a>
+</div>
+</body>
+</html>

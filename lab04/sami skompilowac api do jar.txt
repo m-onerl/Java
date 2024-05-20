@@ -1,0 +1,49 @@
+sami skompilowac api do jar
+
+exports proccesing
+klasa implementować ma
+program ma wcytywać klasy skompilowane, klasy procesorów,
+
+budujemy aplikacje w folderze jest classes w srodku sa klasy procesorów
+wskazuje liste plikow klas i moge ja załadować
+one potrzebuja w pełni kwalifikowana nazwa klas
+
+program powinien wyswietlic po klasach zeby stowrzyc nazwe klasy i sa podfoldery do oczytu klasy
+
+klikam klase , 
+
+tworzy obiek klasy
+wyswietla co klasa moze, (getInfo)
+
+submit task
+
+invoke odpal klase(i ma słuchacza)
+
+boleen
+procesor moze albo nie moze zrobic
+
+pobieram infomacje i wyswietla result i process
+
+i wyswietla resultat
+
+implementacja kodu submit task
+co iles miliskenund zwieksza licnzik
+i odpala status change
+
+panel z lewej strony klasy do zaladowania wczytane z katalogu nazwy plików
+trafaian a liste załadowanych procesorów male okno z get info
+przycisck wykonaj
+
+klasy procesorow w innym projekcie
+dynamiczne ładowanie klas
+
+wyłąduj właduj klasy
+
+zaimplementowanie wlasnego ładowacza klas
+
+jak uruchomimy aplikacje mozemy odpalic z atrynutem run confiuration
+unloading class
+dynamiczne zarzadzanie pamięcią
+
+Widok działania procesora przyu klasie
+wybierz procesor

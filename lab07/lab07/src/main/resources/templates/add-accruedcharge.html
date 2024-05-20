@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Accrued Charge</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+<div class="container">
+
+    <h2>Add Accrued Charge</h2>
+    <form action="#" th:action="@{/charges/add}" th:object="${accruedCharge}" method="post">
+        <label for="paymentDueDate">Payment Due Date:</label>
+        <input type="date" th:field="*{paymentDueDate}" id="paymentDueDate" required/>
+        <label for="amountDue">Amount Due:</label>
+        <input type="number" th:field="*{amountDue}" id="amountDue" required/>
+        <label for="installationRouterNumber">Installation Router Number:</label>
+        <input type="text" th:field="*{installationRouterNumber}" id="installationRouterNumber" required/>
+        <button type="submit">Add Accrued Charge</button>
+    </form>
+    <a href="/charges" class="back-link">Back to Accrued Charges List</a>
+</div>
+</body>
+</html>

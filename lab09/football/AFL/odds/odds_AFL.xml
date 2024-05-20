@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<sport:content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:sport="http://xml.sportsdirectinc.com/sport/v2">
+		   <team-sport-content>
+	      <sport>
+		         <id>/sport/football</id>
+		         <name>football</name>
+	      </sport>
+
+   	      <league-content>
+	 	         <league>
+	 		            <id>/sport/football/league:4</id>
+	 		            <name>Arena Football League</name>
+	 		            <name type="short">AFL</name>
+	 		            <name type="nick">AFL</name>
+	 	         </league>
+		
+	      			         	 	         <competition>
+	 		            <id>/sport/football/competition:29090</id>
+			             <start-date>2010-08-20T20:00:00.000-04:00</start-date>
+			             <name>Tampa Bay vs. Spokane</name>
+			             
+	            		               		             <home-team-content>
+        	        <team>
+	        		  <id>/sport/football/team:445</id>
+	                  	                   <name>Spokane</name>
+	                  	        	    </team>
+	             </home-team-content>
+	               	               		             <away-team-content>
+        	        <team>
+	        		  <id>/sport/football/team:260</id>
+	                  	                   <name>Tampa Bay</name>
+	                  	        	    </team>
+	             </away-team-content>                      			                				                              			
+	               		                         <betting>
+                        	                <point-spread status="active" opening="true" date="2010-08-17T08:16:32.027-04:00">
+                    <id>/betting/odds:22225623</id>
+                                                            <sportsbook>wsex</sportsbook>
+                    <home-handicap>-3.5</home-handicap>
+                    <home-odds>
+                        				      			         	<american>-110</american>
+      			                       </home-odds>                    
+                    <away-odds>
+                        				      			         	<american>-110</american>
+      			                       </away-odds>                    
+                </point-spread>
+                			            	                <money-line status="active" opening="true" date="2010-08-17T08:16:32.090-04:00">
+                    <id>/betting/odds:22225624</id>
+                                                            <sportsbook>wsex</sportsbook>
+                    <home-odds>
+                        				      			         	<american>-150</american>
+      			                       </home-odds>                    
+                    <away-odds>
+                        				      			         	<american>130</american>
+      			                       </away-odds>                    
+                </money-line>                                
+            				            	                <over-under status="active" opening="true" date="2010-08-17T08:16:32.120-04:00">
+                    <id>/betting/odds:22225625</id>
+                                                            <sportsbook>wsex</sportsbook>
+                    <total>114.5</total>
+                    <over-odds>
+                        				      			         	<american>-110</american>
+      			                       </over-odds>
+                    <under-odds>
+                        				      			         	<american>-110</american>
+      			                       </under-odds>
+                </over-under>                
+                			            	                <money-line status="active" opening="true" date="2010-08-17T08:34:35.027-04:00">
+                    <id>/betting/odds:22225687</id>
+                                                            <sportsbook>hilton</sportsbook>
+                    <home-odds>
+                        				      			         	<american>-155</american>
+      			                       </home-odds>                    
+                    <away-odds>
+                        				      			         	<american>135</american>
+      			                       </away-odds>                    
+                </money-line>                                
+            				            	                <point-spread status="active" opening="true" date="2010-08-17T08:34:35.060-04:00">
+                    <id>/betting/odds:22225688</id>
+                                                            <sportsbook>hilton</sportsbook>
+                    <home-handicap>-3.5</home-handicap>
+                    <home-odds>
+                        				      			         	<american>-110</american>
+      			                       </home-odds>                    
+                    <away-odds>
+                        				      			         	<american>-110</american>
+      			                       </away-odds>                    
+                </point-spread>
+                			            	                <over-under status="active" opening="true" date="2010-08-17T08:34:35.090-04:00">
+                    <id>/betting/odds:22225689</id>
+                                                            <sportsbook>hilton</sportsbook>
+                    <total>114.5</total>
+                    <over-odds>
+                        				      			         	<american>-110</american>
+      			                       </over-odds>
+                    <under-odds>
+                        				      			         	<american>-110</american>
+      			                       </under-odds>
+                </over-under>                
+                			            	                <point-spread status="active" opening="true" date="2010-08-17T10:48:25.543-04:00">
+                    <id>/betting/odds:22227874</id>
+                                                            <sportsbook>betonline</sportsbook>
+                    <home-handicap>-3.5</home-handicap>
+                    <home-odds>
+                        				      			         	<american>-110</american>
+      			                       </home-odds>                    
+                    <away-odds>
+                        				      			         	<american>-110</american>
+      			                       </away-odds>                    
+                </point-spread>
+                			            	                <over-under status="active" opening="true" date="2010-08-17T10:48:25.577-04:00">
+                    <id>/betting/odds:22227875</id>
+                                                            <sportsbook>betonline</sportsbook>
+                    <total>114.5</total>
+                    <over-odds>
+                        				      			         	<american>-110</american>
+      			                       </over-odds>
+                    <under-odds>
+                        				      			         	<american>-110</american>
+      			                       </under-odds>
+                </over-under>                
+                			            	                <money-line status="active" opening="true" date="2010-08-17T09:17:45.060-04:00">
+                    <id>/betting/odds:22226467</id>
+                                                            <sportsbook>5dimes</sportsbook>
+                    <home-odds>
+                        				      			         	<american>-150</american>
+      			                       </home-odds>                    
+                    <away-odds>
+                        				      			         	<american>130</american>
+      			                       </away-odds>                    
+                </money-line>                                
+            				            	                <point-spread status="active" opening="true" date="2010-08-17T12:05:05.810-04:00">
+                    <id>/betting/odds:22229159</id>
+                                                            <sportsbook>sbgglobal</sportsbook>
+                    <home-handicap>-3.5</home-handicap>
+                    <home-odds>
+                        				      			         	<american>-110</american>
+      			                       </home-odds>                    
+                    <away-odds>
+                        				      			         	<american>-110</american>
+      			                       </away-odds>                    
+                </point-spread>
+                			            	                <over-under status="active" opening="true" date="2010-08-17T12:05:05.827-04:00">
+                    <id>/betting/odds:22229160</id>
+                                                            <sportsbook>sbgglobal</sportsbook>
+                    <total>114.5</total>
+                    <over-odds>
+                        				      			         	<american>-110</american>
+      			                       </over-odds>
+                    <under-odds>
+                        				      			         	<american>-110</american>
+      			                       </under-odds>
+                </over-under>                
+                			            	                <money-line status="active" opening="true" date="2010-08-17T12:05:05.840-04:00">
+                    <id>/betting/odds:22229161</id>
+                                                            <sportsbook>sbgglobal</sportsbook>
+                    <home-odds>
+                        				      			         	<american>-155</american>
+      			                       </home-odds>                    
+                    <away-odds>
+                        				      			         	<american>135</american>
+      			                       </away-odds>                    
+                </money-line>                                
+            				            	                <over-under status="active" opening="true" date="2010-08-16T17:43:33.573-04:00">
+                    <id>/betting/odds:22222961</id>
+                                                            <sportsbook>diamondsportsbook</sportsbook>
+                    <total>114.0</total>
+                    <over-odds>
+                        				      			         	<american>-110</american>
+      			                       </over-odds>
+                    <under-odds>
+                        				      			         	<american>-110</american>
+      			                       </under-odds>
+                </over-under>                
+                			            	                <over-under status="active" opening="true" date="2010-08-16T17:45:13.200-04:00">
+                    <id>/betting/odds:22222970</id>
+                                                            <sportsbook>bookmaker</sportsbook>
+                    <total>114.0</total>
+                    <over-odds>
+                        				      			         	<american>-110</american>
+      			                       </over-odds>
+                    <under-odds>
+                        				      			         	<american>-110</american>
+      			                       </under-odds>
+                </over-under>                
+                			            	                <point-spread status="active" opening="true" date="2010-08-16T19:13:17.090-04:00">
+                    <id>/betting/odds:22224013</id>
+                                                            <sportsbook>betus</sportsbook>
+                    <home-handicap>-3.5</home-handicap>
+                    <home-odds>
+                        				      			         	<american>-110</american>
+      			                       </home-odds>                    
+                    <away-odds>
+                        				      			         	<american>-110</american>
+      			                       </away-odds>                    
+                </point-spread>
+                			            	                <over-under status="active" opening="false" date="2010-08-16T21:07:43.423-04:00">
+                    <id>/betting/odds:22224702</id>
+                                                            <sportsbook>5dimes</sportsbook>
+                    <total>114.5</total>
+                    <over-odds>
+                        				      			         	<american>-110</american>
+      			                       </over-odds>
+                    <under-odds>
+                        				      			         	<american>-110</american>
+      			                       </under-odds>
+                </over-under>                
+                			            	                <over-under status="active" opening="false" date="2010-08-16T21:13:14.487-04:00">
+                    <id>/betting/odds:22224710</id>
+                                                            <sportsbook>betus</sportsbook>
+                    <total>114.5</total>
+                    <over-odds>
+                        				      			         	<american>-110</american>
+      			                       </over-odds>
+                    <under-odds>
+                        				      			         	<american>-110</american>
+      			                       </under-odds>
+                </over-under>                
+                			            	                <over-under status="active" opening="false" date="2010-08-16T21:16:32.250-04:00">
+                    <id>/betting/odds:22224719</id>
+                                                            <sportsbook>pinnacle</sportsbook>
+                    <total>114.5</total>
+                    <over-odds>
+                        				      			         	<american>-105</american>
+      			                       </over-odds>
+                    <under-odds>
+                        				      			         	<american>-105</american>
+      			                       </under-odds>
+                </over-under>                
+                			            	                <money-line status="active" opening="true" date="2010-08-16T18:36:33.607-04:00">
+                    <id>/betting/odds:22223449</id>
+                                                            <sportsbook>pinnacle</sportsbook>
+                    <home-odds>
+                        				      			         	<american>-149</american>
+      			                       </home-odds>                    
+                    <away-odds>
+                        				      			         	<american>135</american>
+      			                       </away-odds>                    
+                </money-line>                                
+            				            	                <point-spread status="active" opening="true" date="2010-08-16T18:36:33.653-04:00">
+                    <id>/betting/odds:22223450</id>
+                                                            <sportsbook>pinnacle</sportsbook>
+                    <home-handicap>-3.5</home-handicap>
+                    <home-odds>
+                        				      			         	<american>-105</american>
+      			                       </home-odds>                    
+                    <away-odds>
+                        				      			         	<american>-105</american>
+      			                       </away-odds>                    
+                </point-spread>
+                			            	                <point-spread status="active" opening="true" date="2010-08-16T18:37:53.200-04:00">
+                    <id>/betting/odds:22223486</id>
+                                                            <sportsbook>5dimes</sportsbook>
+                    <home-handicap>-3.5</home-handicap>
+                    <home-odds>
+                        				      			         	<american>-110</american>
+      			                       </home-odds>                    
+                    <away-odds>
+                        				      			         	<american>-110</american>
+      			                       </away-odds>                    
+                </point-spread>
+                			            	                <over-under status="active" opening="true" date="2010-08-16T23:50:15.703-04:00">
+                    <id>/betting/odds:22225183</id>
+                                                            <sportsbook>beted</sportsbook>
+                    <total>114.5</total>
+                    <over-odds>
+                        				      			         	<american>-110</american>
+      			                       </over-odds>
+                    <under-odds>
+                        				      			         	<american>-110</american>
+      			                       </under-odds>
+                </over-under>                
+                			            	                <point-spread status="active" opening="true" date="2010-08-16T23:50:15.750-04:00">
+                    <id>/betting/odds:22225184</id>
+                                                            <sportsbook>beted</sportsbook>
+                    <home-handicap>-3.5</home-handicap>
+                    <home-odds>
+                        				      			         	<american>-110</american>
+      			                       </home-odds>                    
+                    <away-odds>
+                        				      			         	<american>-110</american>
+      			                       </away-odds>                    
+                </point-spread>
+                			            	                <point-spread status="active" opening="false" date="2010-08-17T01:35:11.937-04:00">
+                    <id>/betting/odds:22225322</id>
+                                                            <sportsbook>bookmaker</sportsbook>
+                    <home-handicap>-3.5</home-handicap>
+                    <home-odds>
+                        				      			         	<american>-110</american>
+      			                       </home-odds>                    
+                    <away-odds>
+                        				      			         	<american>-110</american>
+      			                       </away-odds>                    
+                </point-spread>
+                			            	                <point-spread status="active" opening="false" date="2010-08-17T01:43:35.000-04:00">
+                    <id>/betting/odds:22225329</id>
+                                                            <sportsbook>diamondsportsbook</sportsbook>
+                    <home-handicap>-3.5</home-handicap>
+                    <home-odds>
+                        				      			         	<american>-110</american>
+      			                       </home-odds>                    
+                    <away-odds>
+                        				      			         	<american>-110</american>
+      			                       </away-odds>                    
+                </point-spread>
+                				            		               	                <home-rotation-number>498</home-rotation-number>
+	                           	            		               	                <away-rotation-number>497</away-rotation-number>
+	                                      	</betting>
+			
+		</competition>     	     
+						</league-content>
+			</team-sport-content> 
+	</sport:content>

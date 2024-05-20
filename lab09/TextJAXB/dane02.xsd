@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/dane02" xmlns:tns="http://www.example.org/dane02" elementFormDefault="qualified">
+
+    <complexType name="OsobaType">
+    	<sequence>
+    		<element name="Imie" type="string"></element>
+    		<element name="Nazwisko" type="string"></element>
+    		<element name="DataUrodzenia" type="date"></element>
+    	</sequence>
+    	<attribute name="Indeks" type="string"></attribute>
+    </complexType>
+    
+    <complexType name="OsobyType">
+    	<sequence>
+    		<element name="Osoba" type="tns:OsobaType"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="Osoby" type="tns:OsobyType"></element>
+</schema>

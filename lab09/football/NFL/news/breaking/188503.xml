@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><sport:content xmlns:sport="http://xml.sportsdirectinc.com/sport/v2">
+<article-content>
+<meta>
+<property name="path">/football/nfl</property>
+</meta>
+<article>
+<id>/article/sdi:188503</id>
+<language>en</language>
+<title>Chargers rookie RB Mathews to get 300 touches</title>
+<source>
+<name>SportsDirect Inc.</name>
+</source>
+<author>
+<name>SportsDirect</name>
+</author>
+<date>2010-04-26T13:37:00.000-03:00</date>
+<synopsis/>
+<body><![CDATA[<P>San Diego Chargers draft pick Ryan Mathews will have close to 300 touches this season, coach Norv Turner told the <EM>San Diego Union-Tribune</EM>. </P><P>The Chargers traded up to 12th in the draft to select Mathews, who becomes the heir apparent to LaDainian Tomlinson. </P><P>Mathews rushed for an NCAA-best 1,808 yards on 276 carries at Fresno State last season, adding eight catches. According to the report, Turner envisions a breakdown of 250 carries and 40 catches. </P><P>Turner already had said that Darren Sproles, who received an increase in workload last season, would remain the team's third-down running back. </P><P> </P>]]></body>
+<references>
+<league-reference>
+<league>
+<id>/sport/football/league:1</id>
+<name>National Football League</name>
+<name type="nick">NFL</name>
+</league>
+</league-reference>
+</references>
+</article>
+</article-content>
+</sport:content>

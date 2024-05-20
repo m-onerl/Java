@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><sport:content xmlns:sport="http://xml.sportsdirectinc.com/sport/v2">
+<article-content>
+<meta>
+<property name="path">/football/nfl</property>
+</meta>
+<article>
+<id>/article/sdi:188510</id>
+<language>en</language>
+<title>Buccaneers release DT Chris Hovan </title>
+<source>
+<name>SportsDirect Inc.</name>
+</source>
+<author>
+<name>SportsDirect</name>
+</author>
+<date>2010-04-26T14:28:00.000-03:00</date>
+<synopsis/>
+<body><![CDATA[<P>The Tampa Bay Buccaneers on Monday released defensive tackle Chris Hovan, <EM>ESPN</EM> reported. </P><P>The report said Hovan was to make $4 million in 2010. However, his days appeared numbered when the Buccaneers used the third pick of the draft on Oklahoma defensive tackle Gerald McCoy and a second-round pick on UCLA defensive tackle Brian Price. </P><P>Hovan spent half of his 10 years with Tampa Bay. He had 33 tackles last season. </P><P> </P>]]></body>
+<references>
+<league-reference>
+<league>
+<id>/sport/football/league:1</id>
+<name>National Football League</name>
+<name type="nick">NFL</name>
+</league>
+</league-reference>
+</references>
+</article>
+</article-content>
+</sport:content>

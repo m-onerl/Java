@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Users timestamp="2001-12-31T12:00:00" xmlns:tns="http://www.example.org/user" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/user user.xsd ">
+  <tns:User>
+    <tns:Name>tns:Name</tns:Name>
+    <tns:Surname>tns:Surname</tns:Surname>
+  </tns:User>
+</tns:Users>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Osoby xmlns:tns="http://www.example.org/dane02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/dane02 dane02.xsd ">
+  <tns:Osoba Indeks="20000">
+    <tns:Imie>Jan</tns:Imie>
+    <tns:Nazwisko>Kowalski</tns:Nazwisko>
+    <tns:DataUrodzenia>2001-01-01</tns:DataUrodzenia>
+  </tns:Osoba>
+</tns:Osoby>
